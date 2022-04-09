@@ -21,6 +21,6 @@ let isAlive =  setInterval (
 
     function soundClick() {
       let audio = new Audio(); // Создаём новый элемент Audio
-      audio.src = 'boom.mp3'; // Указываем путь к звуку "клика"
+      audio.src = 'cry-baby.mp3'; // Указываем путь к звуку "клика"
       audio.autoplay = true; // Автоматически запускаем
     }
